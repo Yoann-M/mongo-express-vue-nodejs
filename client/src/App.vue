@@ -2,9 +2,7 @@
   <div id="app">
     <ul>
       <li><router-link tag="a" :to="{ name: 'Home'}">Home</router-link></li>
-      <li><router-link tag="a" :to="{ name: 'Posts'}">Posts</router-link></li>
-    </ul>
-    <img alt="Vue logo" src="./assets/logo.png">
+      <li><router-link tag="a" :to="{ name: 'Posts'}">Posts</router-link></li>    </ul>
     <router-view/>
   </div>
 </template>
